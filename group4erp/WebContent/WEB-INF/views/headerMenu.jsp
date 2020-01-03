@@ -218,6 +218,11 @@
 			location.replace("/group4erp/viewBestKeywdAnalysis.do");
 			
 		}
+		//비밀번호변경 
+		function changepwd() {
+			location.replace("/group4erp/changepwd.do");
+			
+		}
 		
 		
 	</script>
@@ -236,6 +241,7 @@
 			<th style="cursor:pointer" onMouseOver="javascirpt:viewBigDataMenu();">전략분석</th><td widht="100" onMouseOver="hideSubMenu();">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
 			<!-- <th style="cursor:pointer" onMouseOver="javascirpt:viewBuyerMenu();">거래처관리</th><td widht="100" onMouseOver="hideSubMenu();">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td> -->
 			<td align="right">OOO 사원님 로그인하셨습니다. &nbsp;<input type="button" value="로그아웃" onClick="logout()"></td>
+			<td align="right">&nbsp;&nbsp;&nbsp;<input type="button" value="비밀번호변경" onClick="changepwd()"></td>
 			
 			
 		</tr>

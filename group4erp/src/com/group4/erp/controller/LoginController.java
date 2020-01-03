@@ -83,20 +83,30 @@ public class LoginController {
 	
 	@RequestMapping(value="/joininsert.do")
 	public ModelAndView joinMembership() {
-		System.out.println("사원등록 시작");
+		System.out.println("새로운비밀번호등록");
 		ModelAndView mav = new ModelAndView();
-		mav.setViewName("join.jsp");
+		mav.setViewName("newpwd.jsp");
 		
 		return mav;
 	}
 	@RequestMapping(value="/godelete.do")
 	public ModelAndView deleteMembership() {
-		System.out.println("사원삭제 시작");
+		System.out.println("현비밀번호삭제");
 		ModelAndView mav = new ModelAndView();
 		mav.setViewName("delete.jsp");
 		
 		return mav;
 	}
-	
-	
-}
+	@RequestMapping(value="/changepwd.do")
+	public ModelAndView changePwd() {
+		System.out.println("비밀번호 변경");
+		ModelAndView mav = new ModelAndView();
+		mav.setViewName("newpwd.jsp");
+		
+		return mav;
+	}
+
+
+
+		}
+

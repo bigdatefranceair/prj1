@@ -27,7 +27,7 @@ return false;
 </head>
 <body>
 <cneter>
-<form name="join_form" method="post" action="/group4erp/joinProc.do">
+<form name="join_form" method="post" action="/group4erp/gochangepwd.do">
 	<b>사원등록화면</b><br>
 	<table class="tbcss1" cellpadding=5 cellspacing=0>
 		<tr>
@@ -39,6 +39,7 @@ return false;
 		<tr>
 			<td>주소</td><td><input type="text" name="emp_addr"></td>
 		</tr>	
+		
 	</table>
 </form>
 
